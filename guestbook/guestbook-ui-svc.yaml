@@ -4,7 +4,8 @@ metadata:
   name: guestbook-ui
   labels:
     app.kubernetes.io/instance: argocd-example-apps
-    app3: changed-from-git-v2
+    app2: changed-from-git-v2
+    app3: changed-from-git-v3
 spec:
   ports:
   - port: 80
